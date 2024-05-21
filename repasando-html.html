@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="En esta página estamos aprendiendoa html">
+    <title>Repasando HTML</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="Imágenes/icono-pagina.svg">
+    <link rel="apple-touch-icon" href="Imágenes/icono-pagina.svg">
+</head>
+<body>
+        <!-- Titulos -->
+        <h1>Título</h1>
+        <h2>Esto es un subtítulo</h2>
+        <h3>Más chico que el subtítulo</h3>
+        <h4>Me sigo achicando</h4>
+        <h5>Más pequeño todavía</h5>
+        <h6>Soy el mas pequeñito</h6>
+        <!-- Etiquetas de texto basicas -->
+        <h2 class="subtitulo"><hr>Etiqutas de texto basicas <hr></h2>
+        <p>
+            Palabras en: <b>Negrita</b>, <i>Cursiva</i>, <u>Subrayado</u>, e=mc<sup>2</sup>, H<sub>2</sub>O, <mark>Texto resaltado</mark>, <small>Letras pequeñas</small>.
+        </p>
+        <!-- Etiquetas de texto semánticas -->
+        <h2 class="subtitulo"><hr>Etiquetas de texto semánticas<hr></h2>
+        <p>
+            <strong>Este texto es importante</strong>, <em>Este texto hace énfasis</em>
+        </p>
+        <blockquote>Sólo se que no se nada.</blockquote>
+        <cite>Sócrates.</cite>
+        <!-- Etiquetas de salto -->
+        <h2 class="subtitulo"><hr>Etiquetas de salto<hr></h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Aut, molestias velit totam dolor eaque esse similique maiores magni ipsa nobis deleniti vero distinctio labore repellendus sit! Veniam aut aliquid quia. <br><br><hr>
+        </p>
+        <!-- Etiquetas de Formateo -->
+        <h2 class="subtitulo">Etiquetas de Formateo</h2>
+        <pre>
+            <P>
+              #Tareas por hacer:
+                <mark>En el curso:</mark>
+                 - No faltar a clases.
+                 - Repasar la teoría.
+                 - Practicar ejercicios.
+                <mark>En la casa:</mark>
+                 - Cortar el pasto.
+                 - Hacer las compras.
+                 - Pagar las cuentas.
+            </P>
+        </pre>
+        <pre>
+            <code>
+                Este texto está en formato de código
+            </code>
+            <code>
+                function clearScreen() {
+                    document.getElementById("Respuesta: ").
+                    value = "";
+                }
+            </code>
+        </pre>
+        <!-- Etiquetas semánticas estructurales -->
+        <h2 class="subtitulo">Etiquetas semánticas estructurales</h2>
+
+        <div><b>DIV:</b> Es una etiqueta contenedora que no tiene semántica</div>
+        <header><b>HEADER:</b> Cabecera de un sitio web o una sección</header>
+        <main><b>MAIN:</b> Define la sección principal del documento, solo puede existir una por documento</main>
+        <footer><b>FOOTER:</b> Pié de página de un sitio web o una sección</footer>
+        <nav><b>NAV:</b> Representa un menú de navegación</nav>
+        <article><b>ARTICLE:</b> Representa una sección de autocontenido (que por sí sola se explica)</article>
+        <aside><b>ASIDE:</b> Representa contenido complementario o secundario</aside>
+        <section><b>SECTION:</b> Representa una sección de contenido genérico</section>
+        <address><b>ADDRESS:</b> Representa una dirección física</address><hr>
+        <!-- Etiqueta de línea y de bloque -->
+        <h2 class="subtitulo">Etiqueta de línea y de bloque</h2>
+
+        <div class="div">
+            La etiqueta de bloque por excelencia es la DIV
+        </div>
+        <span class="span">
+            La etiqueta de linea por excelencia es la SPAN
+        </span>
+        <span>Hola soy otra SPAN</span><hr>
+
+        <img src="/Imágenes/Boca campeon 2007.jpg" alt="Boca Campeón 2007">
+        <img src="/Imágenes/Boca campeon 2007.jpg" alt="Boca Campeón 2007">
+
+    <a href="mailto:eriickcano012@gmail.com">Comunicate con nosotros</a><br>
+
+    <h4>Formulario de contacto</h4>
+    <form action="https://formsubmit.co/eriickcano012@gmail.com" method="POST" target="_blank">
+        <input type="text" name="nombre" placeholder="Escribe tu nombre: " title="El nombre solo acepta letras y espacios en blanco" required><br>
+        <input type="text" name="correo" placeholder="Escribe tu correo electrónico: " title="Formato de correo inválido" required><br>
+        <textarea name="comentarios" cols="30" rows="10" required></textarea><br>
+        <input type="submit" name="Botón" value="Enviar consulta">
+    </form><hr>
+
+    
+
+    <script src="app.js"></script> <!--Enlazar archivo JavaScript-->
+    <script>
+    console.log("Este texto esta en el archivo INDEX");
+    </script>
+
+</body>
+</html>
