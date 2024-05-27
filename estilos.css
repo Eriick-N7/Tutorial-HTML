@@ -1,6 +1,82 @@
 html{
     scroll-behavior: smooth;
 }
-img{
-    background-color: aquamarine;
+body{
+    background-color: #E2DFD0;
+    color: #32012F;
 }
+.titulo,
+#encabezados,
+#etiquetas-de-texto-basicas,
+#etiquetas-de-texto-semanticas,
+#etiquetas-de-salto,
+#etiquetas-de-formateo,
+#etiquetas-semanticas-estructurales,
+#etiqueta-de-linea-vs-de-bloque,
+#listas-ordenadas,
+#listas-desordenadas,
+#tablas,
+#enlaces,
+#probando-css{
+    color: #F97300;
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: #524C42;
+    border-radius: 1rem;
+    width: 50%;
+    margin: 0 25%;
+    padding: 1rem;
+}
+.indice{
+    font-weight: bold;
+    text-decoration: underline;
+    color: #F97300;
+    font-size: 2rem;
+}
+#indice-2{
+    text-align: center;
+}
+ul{
+    margin: 1rem;
+}
+a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #32012F;
+    font-weight: bold;
+}
+.externos{
+    display: flex;
+    justify-content: space-evenly;
+}
+.enlaces{
+    color: #F97300;
+    font-size: 2rem;
+    text-align: center;
+}
+.wsp{
+    display: flex;
+    justify-content: center;
+}
+/* Probando css en el HTML */
+#subtítulo-1{
+    color: yellowgreen;
+    font-size: 1.5rem;
+}
+.subtítulo-2,
+.subtítulo-3{
+    color: coral;
+    font-size: 2rem;
+    font-weight: bold;
+} /* Formas de usar mismo codigo en varias etiquetas */
+.fondo{
+    background-color: #589;
+}
+.colores{
+    font-size: 1.75rem;
+    color: tomato;
+}
+.coloresHexa{
+    color:  #0e68ee80;
+}
+
